@@ -32,7 +32,7 @@ services:
     environment:
       POSTGRES_DB: auth_api
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 142728@Mjg
+      POSTGRES_PASSWORD:
     ports:
       - "5432:5432"
     volumes:
